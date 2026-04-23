@@ -1,18 +1,22 @@
-streamlit==1.37.0
-
 numpy==1.26.4
-scipy==1.13.1
-pandas==2.2.2
-scikit-learn==1.5.1
-tqdm==4.66.5
-
 torch==2.2.2
 torchvision==0.17.2
-
+streamlit==1.37.0
 matplotlib==3.8.4
-pillow==10.3.0
-opencv-python-headless==4.10.0.84
 
-google-generativeai==0.7.2
+# IMPORTANT FIX
+opencv-python-headless==4.9.0.80
+
+pillow==10.3.0
+
+# FIXED NAME
+grad-cam
+
+tqdm==4.66.5
+scipy==1.11.4
+scikit-learn==1.3.2
+pandas==2.1.4
+
+# ENV + API
 python-dotenv
-grad-cam==1.4.8
+groq
