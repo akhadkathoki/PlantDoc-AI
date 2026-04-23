@@ -1,0 +1,17 @@
+
+.zencoder/
+.zenflow/
+# Training History
+training_hist.json
+
+# OS files
+.DS_Store
+Thumbs.db
+.venv/
+__pycache__/
+dataset/
+assets/
+models/
+.env
+*.h5
+
